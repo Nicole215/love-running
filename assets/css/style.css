@@ -238,6 +238,7 @@ main {
         text-align: end;
         align-self: flex-end;
     }
+    
 }
 /* Larger devices (laptops and up */
 @media  screen and (min-width: 992px) {
@@ -259,11 +260,11 @@ main {
     }
 
     #benefits-image {
-        order: 0;
+        order: 0
     }
 
     #benefits-mental {
-        order: 1;
+        order: 1
     }
 
     #benefits-mental > div {
