@@ -41,20 +41,20 @@
             <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
                 <h2><i class="fa-solid fa-heart-pulse"></i> Let's get you signed up!</h2>
                 <label for="first-name">First Name</label>
-                <input id="first-name" type="text" class="text-input" required><br>
+                <input id="first-name" type="text" name="first-name" class="text-input" required><br>
                 <label for="last-name">Last Name</label>
-                <input id="last-name" type="text" class="text-input" required><br>
+                <input id="last-name" type="text" name="last-name" class="text-input" required><br>
                 <label for="email-address">Email Address</label>
-                <input id="email-address" type="email" class="text-input" required><br>
+                <input id="email-address" type="email" name="email-address" class="text-input" required><br>
                 <div class="radio-buttons">
-                <div><label for="Road">Road</label>
-                <input type="radio" id="Road" name="running-preference" checked/></div>
-                <div><label for="Trail">Trail</label>
-                <input type="radio" id="Trail" name="running-preference"/></div>
-                <div><label for="Both">Both</label>
-                <input type="radio" id="Both" name="running-preference"/></div>
-                <input type="submit" value="Let's Run!" class="join-button">
-            </div>
+                <div><label for="road">Road</label>
+                <input type="radio" id="road" name="running-preference" value="road" required checked/></div>
+                <div><label for="trail">Trail</label>
+                <input type="radio" id="trail" name="running-preference" value="trail" required/></div>
+                <div><label for="both">Both</label>
+                <input type="radio" id="both" name="running-preference" value="both" required/></div></div>
+                <button type="submit" class="join-button">Let's Run!</button>
+            
             </form>
         </section>
     </main>
